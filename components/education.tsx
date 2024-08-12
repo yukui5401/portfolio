@@ -4,7 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import qutLogo from "@/public/qut-Logo.png";
+import uwLogo from "@/public/uw-logo.png";
 import Image from "next/image";
 
 export default function Education() {
@@ -32,21 +32,26 @@ export default function Education() {
 
       <div className="mt-4 flex gap-6 border border-black/5 rounded-lg pt-4 pb-7 px-5 md:p-10 bg-gray-100 dark:bg-white/10 dark:hover:bg-white/20">
         <div>
-          <Image src={qutLogo} alt="QUT" width="150" />
+          <Image src={uwLogo} alt="QUT" width="150" />
         </div>
 
         <div>
           <p className="text-lg font-medium">
-            Bachelor of Information Technology
+            Honours Mathematics, Bachelor of Mathematics
           </p>
-          <p>Queensland University of Technology</p>
-          <p className="mt-1">Graduated in 2023</p>
-          <p className="my-1">GPA 6.2/7</p>
+          <p>Unversity of Waterloo</p>
+          <p className="mt-1">September 2023 - April 2028 (Expected)</p>
+          <p className="my-1">Relevant courses:</p>
           <ul className="list-disc pl-6">
-            <li>Major in Computer Science</li>
-            <li>Minor in Networks & Security</li>
-            <li>Minor in Mobile Applications</li>
-            <li>Science & Engineering Dean's List - 2019 & 2021</li>
+            <li>CS 145 - Designing Functional Program (Advanced)</li>
+            <li>MATH 145 - Algebra (Advanced)</li>
+            <li>MATH 147 - Calculus 1 (Advanced)</li>
+            <li>
+              CS 146 - Elementary Algorithm Design and Data Abstraction
+              (Advanced)
+            </li>
+            <li>MATH 136 - Linear Algebra 1 (Honours)</li>
+            <li>MATH 138 - Calculus 2 (Honours)</li>
           </ul>
         </div>
       </div>

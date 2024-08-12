@@ -23,27 +23,8 @@ export default function Intro() {
       <ParticleContainer />
       <div className="flex items-center justify-center">
         <div className="relative">
-          <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "tween",
-              duration: 0.2,
-            }}
-          >
-            <Image
-              src={githubdp}
-              alt="Ricardo portrait"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
-          </motion.div>
-
           <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
+            className="relative bottom-0 right-0 text-5xl text-white font-bold"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -53,19 +34,32 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            👋
+            Hi, I&apos;m <span className="text-blue-500">Brooke</span>.
           </motion.span>
         </div>
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-0 sm:px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl text-white max-w-[50rem] mx-auto"
+        className="mb-10 mt-4 px-0 sm:px-4 text-xl font-medium !leading-[1.5] text-white max-w-[50rem] mx-auto"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ben.</span> I'm a{" "}
-        <span className="font-bold">software engineer</span> at{" "}
-        <span className="font-bold">Humanforce</span> in Brisbane. I'm currently working with Laravel, React.js, GraphQL, and AWS.
+        I&apos;m a 2nd year Math student at the{" "}
+        <span className="font-bold text-orange-300">
+          University of Waterloo
+        </span>
+        , committed to transforming ideas into practical solutions. I&apos;m{" "}
+        passionate about doing research in{" "}
+        <span className="font-bold text-blue-300">AI</span> and{" "}
+        <span className="font-bold text-blue-300">cybersecurity</span>. I also
+        like to play{" "}
+        <a
+          className="text-green-300 underline"
+          href="https://www.chess.com/member/kuikui82"
+        >
+          chess
+        </a>{" "}
+        and go on long walks.
       </motion.h1>
 
       <motion.div
@@ -78,7 +72,7 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://github.com/ben04rogers"
+          href="https://github.com/yukui5401"
           target="_blank"
         >
           GitHub <FaGithub className="opacity-70" />
@@ -86,7 +80,7 @@ export default function Intro() {
 
         <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://www.linkedin.com/in/ben-rogers-dev/"
+          href="https://www.linkedin.com/in/brooke-yang/"
           target="_blank"
         >
           <span className="opacity-70">LinkedIn</span>
