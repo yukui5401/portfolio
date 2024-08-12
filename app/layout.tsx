@@ -10,7 +10,7 @@ const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Brooke Yang | Portfolio",
-  description: "Software Developer at HosTalky.",
+  description: "Software Developer.",
 };
 
 export default function RootLayout({
