@@ -35,7 +35,7 @@ export const experiencesData = [
     title: "Software Developer Intern",
     location: "HosTalky",
     description:
-      "Co-founded the Artificial Intelligence (AI) project for the mobile app, developing end-to-end Automatic Speech Recognition (ASR) solutions to expedite user workflows. Deployed AWS cloud services for facilitating API requests, improving data security and ensuring HIPAA compliance.",
+      "Co-founded the Artificial Intelligence (AI) project for the messaging app, developing end-to-end Automatic Speech Recognition (ASR) solutions to expedite user workflows. Deployed AWS cloud services for facilitating API requests, improving data security and ensuring HIPAA compliance.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2024 - August 2024",
   },
