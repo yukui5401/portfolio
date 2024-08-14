@@ -8,7 +8,6 @@ import { FaGithub } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "./particle-container";
-import githubdp from "@/public/githubdp.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);

@@ -40,7 +40,7 @@ export const experiencesData = [
     date: "May 2024 - August 2024",
   },
   {
-    title: "Curriculum Developer",
+    title: "Curriculum Developer Intern",
     location: "Kids Coding School",
     description:
       "Organized and led workshops in game design, instructing coding classes over two 4-week programs. Contributed to promotional activities aimed at researching and identifying areas for curriculum enhancement.",
@@ -54,7 +54,19 @@ export const projectsData = [
     title: "devDucky @ Hack the 6ix 2024",
     description:
       "An all-in-one IDE developer tool for code analysis and AI-generated feedback, leveraging speech-to-text functionalities and fine-tuned LLMs for code completion to enhance the programming experience.",
-    tags: ["JavaScript", "React", "Express.js", "AWS"],
+    tags: [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Python",
+      "Flask",
+      "TypeScript",
+      "MongoDB",
+      "Express.js",
+      "Vite.js",
+      "HTML",
+      "Tailwind CSS",
+    ],
     icons: [
       "devicon:javascript",
       "devicon:react",
@@ -76,7 +88,17 @@ export const projectsData = [
     title: "Intuitscape @ GenAI Genesis 2024",
     description:
       "An eLearning platform that scrapes the web for educational material and organizes it into interactive concept maps. Designed to help users visualize and engage with complex concepts.",
-    tags: ["PHP", "Laravel", "JavaScript", "Tailwind", "MySQL"],
+    tags: [
+      "Python",
+      "Google Cloud",
+      "JavaScript",
+      "React",
+      "Flask",
+      "Node.js",
+      "Vite.js",
+      "HTML",
+      "CSS",
+    ],
     icons: [
       "devicon:python",
       "logos:google-cloud",
@@ -92,72 +114,6 @@ export const projectsData = [
     demoLink: "https://devpost.com/software/prezi-but-with-ai",
     githubLink: "https://github.com/yukui5401/Intuitscape",
   },
-  // {
-  //   title: "Company Asset Trading",
-  //   description:
-  //     "Client-server system written in Java for trading of virtual assets within departments of a company. Facilitated trades via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
-  //   tags: ["Java", "MariaDB", "Swing"],
-  //   icons: ["logos:java", "logos:mariadb-icon"],
-  //   imageUrl: assetTradingImg,
-  //   githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
-  // },
-  // {
-  //   title: "Euphorus",
-  //   description:
-  //     "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit. AG Grid and Chart.js were used to present the data.",
-  //   tags: ["JavaScript", "React", "Bootstrap"],
-  //   icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
-  //   imageUrl: euphorusImg,
-  //   githubLink: "https://github.com/ben04rogers/cab230assignment1",
-  // },
-  // {
-  //   title: "Country Happiness API",
-  //   description:
-  //     "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.      ",
-  //   tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
-  //   icons: ["logos:javascript", "logos:express", "logos:swagger", "cib:mysql"],
-  //   imageUrl: euphorusBackendImg,
-  //   githubLink: "https://github.com/ben04rogers/cab230assignment2",
-  // },
-  // {
-  //   title: "Techprowl Computer Auction",
-  //   description:
-  //     "Computer auction application built with Flask. The site allows users to register, bid on items, leave reviews, post new listings, manage listings, search by keyword, and keep a watch list. ",
-  //   tags: ["Python", "Flask", "Bootstrap", "SQLite"],
-  //   icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
-  //   imageUrl: techprowlImg,
-  //   githubLink: "https://github.com/ben04rogers/computer-auction",
-  //   urlLink: "https://techprowl.herokuapp.com",
-  // },
-  // {
-  //   title: "Task Manager Console App",
-  //   description:
-  //     "Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.",
-  //   tags: ["C#"],
-  //   icons: ["devicon:csharp"],
-  //   imageUrl: taskManagerImg,
-  //   githubLink: "https://github.com/ben04rogers/task-manager",
-  // },
-  // {
-  //   title: "Family Tree Shortest Path",
-  //   description:
-  //     "Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
-  //   tags: ["Python"],
-  //   icons: ["logos:python"],
-  //   imageUrl: familyTreeImg,
-  //   githubLink: "https://github.com/ben04rogers/breadth-first-search",
-  //   demoLink: "https://www.youtube.com/watch?v=VXCZKsqupxA",
-  // },
-  // {
-  //   title: "Arduino Binary Game",
-  //   description:
-  //     "Binary game written in C that runs on an Arduino Uno using Tinkercad. The game aims to help users learn binary by challenging them to input different integers in their binary form within a time limit.",
-  //   tags: ["C"],
-  //   icons: ["devicon:c"],
-  //   imageUrl: binaryGameImg,
-  //   githubLink: "https://github.com/ben04rogers/binary-game-microcontroller",
-  //   demoLink: "https://www.youtube.com/watch?v=A6n6XDk4Unw&feature=youtu.be",
-  // },
 ] as const;
 
 export const skillsData = [
