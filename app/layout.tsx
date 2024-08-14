@@ -1,5 +1,5 @@
 import Header from "@/components/header";
-import { Nunito } from "next/font/google";
+import { Nunito, Open_Sans } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
@@ -7,6 +7,7 @@ import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
 const nunito = Nunito({ subsets: ["latin"] });
+const openSans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Brooke Yang | Portfolio",
