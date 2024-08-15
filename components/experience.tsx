@@ -41,11 +41,14 @@ export default function Experience() {
               iconStyle={{
                 background: theme === "light" ? "white" : "#1d2432",
                 fontSize: "1.5rem",
+                overflow: "hidden",
               }}
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+              <h3 className="font-extrabold capitalize">{item.title}</h3>
+              <p className="font-bold !mt-0 italic">
+                <a href={item.link}> {item.location} </a>
+              </p>
+              <p className="!mt-2 font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
             </VerticalTimelineElement>

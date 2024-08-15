@@ -58,7 +58,7 @@ export default function Intro() {
         }}
       >
         <a
-          className="group bg-white px-3 py-1.5 flex items-center gap-2 rounded-md outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
+          className="group bg-gray-200 px-3 py-1.5 flex items-center gap-2 rounded-md outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
           href="https://github.com/yukui5401"
           target="_blank"
         >

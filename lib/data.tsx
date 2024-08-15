@@ -2,6 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import intuitscape from "@/public/intuitscape.png";
 import devducky from "@/public/devducky.png";
+import hostalkyLogo from "@/public/hostalky_logo.jpeg";
+import kidsCodingLogo from "@/public/kidscodingschool_to_logo.jpeg";
+import Image from "next/image";
 
 export const links = [
   {
@@ -36,16 +39,20 @@ export const experiencesData = [
     location: "HosTalky",
     description:
       "Co-founded the Artificial Intelligence (AI) project for the messaging app, developing end-to-end Automatic Speech Recognition (ASR) solutions to expedite user workflows. Deployed AWS cloud services for facilitating API requests, improving data security and ensuring HIPAA compliance.",
-    icon: React.createElement(CgWorkAlt),
+    // icon: React.createElement(CgWorkAlt),
+    icon: <Image src={hostalkyLogo} alt="Icon" />,
     date: "May 2024 - August 2024",
+    link: "https://www.hostalky.com/",
   },
   {
     title: "Curriculum Developer Intern",
     location: "Kids Coding School",
     description:
       "Organized and led workshops in game design, instructing coding classes over two 4-week programs. Contributed to promotional activities aimed at researching and identifying areas for curriculum enhancement.",
-    icon: React.createElement(CgWorkAlt),
+    // icon: React.createElement(CgWorkAlt),
+    icon: <Image src={kidsCodingLogo} alt="Icon" />,
     date: "July 2023 - August 2023",
+    link: "https://www.kidscoding.ca/",
   },
 ] as const;
 
