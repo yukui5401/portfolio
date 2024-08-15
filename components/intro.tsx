@@ -37,26 +37,16 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-0 sm:px-4 text-xl font-medium !leading-[1.5] text-white max-w-[50rem] mx-auto"
+        className="mb-10 mt-4 px-0 sm:px-4 text-xl font-medium !leading-[1.5] text-gray-200 max-w-[50rem] mx-auto"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         I&apos;m a 2nd year Math student at the{" "}
-        <span className="font-bold text-orange-300">
-          University of Waterloo
-        </span>
-        , committed to transforming ideas into practical solutions. I&apos;m{" "}
-        passionate about doing research in{" "}
-        <span className="font-bold text-blue-300">AI</span> and{" "}
-        <span className="font-bold text-blue-300">cybersecurity</span>. I also
-        like to play{" "}
-        <a
-          className="text-green-300 underline"
-          href="https://www.chess.com/member/kuikui82"
-        >
-          chess
-        </a>{" "}
-        and go on long walks.
+        <span className="text-orange-300">University of Waterloo</span> with a solid
+        foundation in software development, specializing in microservices
+        architecture, serverless computing, and AI/ML technologies. I strive to
+        develop solutions that not only solve problems but also set new
+        standards for excellence and efficiency.
       </motion.h1>
 
       <motion.div
@@ -68,15 +58,15 @@ export default function Intro() {
         }}
       >
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
+          className="group bg-white px-3 py-1.5 flex items-center gap-2 rounded-md outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
           href="https://github.com/yukui5401"
           target="_blank"
         >
           GitHub <FaGithub className="opacity-70" />
         </a>
-
+        &ensp;
         <a
-          className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
+          className="group bg-gray-950 text-white px-3 py-1.5 flex items-center gap-2 rounded-md outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
           href="https://www.linkedin.com/in/brooke-yang/"
           target="_blank"
         >
