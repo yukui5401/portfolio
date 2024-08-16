@@ -31,18 +31,18 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            Hi, I&apos;m <span className="text-blue-500">Brooke</span>.
+            Hi, I&apos;m <span className="text-amber-300">Brooke</span>.
           </motion.span>
         </div>
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-0 sm:px-4 text-xl font-medium !leading-[1.5] text-gray-200 max-w-[50rem] mx-auto"
+        className="mb-10 mt-4 px-0 sm:px-4 text-lg !leading-[1.5] text-white max-w-[60rem] mx-auto"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         I&apos;m a 2nd year Math student at the{" "}
-        <span className="text-orange-300">University of Waterloo</span> with a solid
+        <span className="text-amber-300">University of Waterloo</span> with a solid
         foundation in software development, specializing in microservices
         architecture, serverless computing, and AI/ML technologies. I strive to
         develop solutions that not only solve problems but also set new
@@ -58,20 +58,20 @@ export default function Intro() {
         }}
       >
         <a
-          className="group bg-gray-200 px-3 py-1.5 flex items-center gap-2 rounded-md outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
+          className="group bg-gray-100 px-3 py-1.5 flex items-center gap-2 rounded-md outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer text-gray-950"
           href="https://github.com/yukui5401"
           target="_blank"
         >
-          GitHub <FaGithub className="opacity-70" />
+          GitHub <FaGithub className="opacity-80" />
         </a>
         &ensp;
         <a
-          className="group bg-gray-950 text-white px-3 py-1.5 flex items-center gap-2 rounded-md outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
+          className="group bg-gray-950 text-white px-3 py-1.5 flex items-center gap-2 rounded-md outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border border-white border-opacity-40"
           href="https://www.linkedin.com/in/brooke-yang/"
           target="_blank"
         >
-          <span className="opacity-70">LinkedIn</span>
-          <BsLinkedin className="opacity-70" />
+          <span className="opacity-90">LinkedIn</span>
+          <BsLinkedin className="opacity-80" />
         </a>
       </motion.div>
     </section>

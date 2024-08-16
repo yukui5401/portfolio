@@ -78,7 +78,7 @@ export default function Project({
                 rel="noopener noreferrer"
                 className="flex items-center bg-[#111827] text-white py-1.5 px-3 mr-2 rounded-md hover:scale-105"
               >
-                <AiOutlineLink className="mr-1" /> Devpost
+                <AiOutlineLink className="mr-1 opacity-80" /> Devpost
               </a>
             )}
 
@@ -87,10 +87,9 @@ export default function Project({
                 href={githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center border border-[#111827] py-1.5 px-3 rounded-md mr-2 text-[#111827] hover:scale-105 dark:border-white dark:text-white dark:border-opacity-40"
+                className="flex items-center border border-[#111827] py-1.5 px-3 rounded-md mr-2 text-black hover:scale-105 dark:border-white dark:text-white dark:border-opacity-40"
               >
-                <AiFillGithub className="mr-1 opacity-70" />{" "}
-                <span className="opacity-70">GitHub</span>
+                <AiFillGithub className="mr-1 opacity-80" /> GitHub
               </a>
             )}
           </div>
