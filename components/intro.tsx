@@ -26,24 +26,28 @@ export default function Intro() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               type: "spring",
-              stiffness: 125,
               delay: 0.1,
-              duration: 0.7,
+              duration: 0.8,
             }}
           >
-            Hi, I&apos;m <span className="text-amber-300">Brooke</span>.
+            Hi, I&apos;m <span className="text-yellow-300">Brooke</span>.
           </motion.span>
         </div>
       </div>
 
       <motion.h1
         className="mb-10 mt-4 px-0 sm:px-4 text-lg !leading-[1.5] text-white max-w-[60rem] mx-auto"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{
+          type: "tween",
+          delay: 0.5,
+          duration: 0.5,
+        }}
       >
         I&apos;m a 2nd year Math student at the{" "}
-        <span className="text-amber-300">University of Waterloo</span> with a solid
-        foundation in software development, specializing in microservices
+        <span className="text-yellow-300">University of Waterloo</span> with a
+        solid foundation in software development, specializing in microservices
         architecture, serverless computing, and AI/ML technologies. I strive to
         develop solutions that not only solve problems but also set new
         standards for excellence and efficiency.

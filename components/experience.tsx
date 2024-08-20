@@ -44,7 +44,7 @@ export default function Experience() {
                 overflow: "hidden",
               }}
             >
-              <h3 className="font-extrabold capitalize">{item.title}</h3>
+              <h3 className="font-bold capitalize">{item.title}</h3>
               <p className="font-bold !mt-0 italic">
                 <a href={item.link}> {item.location} </a>
               </p>
