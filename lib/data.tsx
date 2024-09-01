@@ -41,7 +41,7 @@ export const experiencesData = [
       "Co-founded the Artificial Intelligence (AI) project for the messaging app, developing end-to-end Automatic Speech Recognition (ASR) solutions to expedite user workflows. Deployed AWS cloud services for facilitating API requests, improving data security and ensuring HIPAA compliance.",
     // icon: React.createElement(CgWorkAlt),
     icon: <Image src={hostalkyLogo} alt="Icon" />,
-    date: "May 2024 - August 2024",
+    date: "May 2024 - Present",
     link: "https://www.hostalky.com/",
   },
   {

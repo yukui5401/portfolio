@@ -39,7 +39,7 @@ export default function Education() {
           <p className="text-lg font-medium">
             Honours Mathematics, Bachelor of Mathematics
           </p>
-          <p>Unversity of Waterloo</p>
+          <p>University of Waterloo</p>
           <p className="mt-1">September 2023 - April 2028 (Expected)</p>
           <p className="my-1">Relevant courses:</p>
           <ul className="list-disc pl-6">
