@@ -133,7 +133,7 @@ export const skillsData = [
     icon: "logos:typescript-icon",
   },
   {
-    name: "React",
+    name: "React (Native)",
     icon: "logos:react",
   },
   {
