@@ -177,7 +177,7 @@ export const skillsData = [
     icon: "devicon:c",
   },
   {
-    name: "C",
+    name: "C++",
     icon: "devicon:cplusplus",
   },
   {
