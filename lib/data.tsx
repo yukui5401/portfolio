@@ -35,20 +35,30 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer Intern",
+    title: "Backend Developer Intern",
     location: "HosTalky",
     description:
-      "Co-founded the Artificial Intelligence (AI) project for the messaging app, developing end-to-end Automatic Speech Recognition (ASR) solutions to expedite user workflows. Deployed AWS cloud services for facilitating API requests, improving data security and ensuring HIPAA compliance.",
+      "Currently building an AI search engine for efficient querying of the UMLS database.",
     // icon: React.createElement(CgWorkAlt),
     icon: <Image src={hostalkyLogo} alt="Icon" />,
-    date: "May 2024 - Present",
+    date: "September 2024 - Present",
+    link: "https://www.hostalky.com/",
+  },
+  {
+    title: "AI Engineering Intern",
+    location: "HosTalky",
+    description:
+      "Developed an MVP for a transcriptions API to autofill documents which handled up to 70,000 client requests per week on v2.3.8 of the mobile app.",
+    // icon: React.createElement(CgWorkAlt),
+    icon: <Image src={hostalkyLogo} alt="Icon" />,
+    date: "May 2024 - August 2024",
     link: "https://www.hostalky.com/",
   },
   {
     title: "Curriculum Developer Intern",
     location: "Kids Coding School",
     description:
-      "Organized and led workshops in game design, instructing coding classes over two 4-week programs. Contributed to promotional activities aimed at researching and identifying areas for curriculum enhancement.",
+      "Created an online coding platform for 30+ students to learn modular programming and web development.",
     // icon: React.createElement(CgWorkAlt),
     icon: <Image src={kidsCodingLogo} alt="Icon" />,
     date: "July 2023 - August 2023",
