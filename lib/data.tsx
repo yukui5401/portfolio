@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import intuitscape from "@/public/intuitscape.png";
 import devducky from "@/public/devducky.png";
+import chameleon from "@/public/chameleon.png";
 import hostalkyLogo from "@/public/hostalky_logo.jpeg";
 import kidsCodingLogo from "@/public/kidscodingschool_to_logo.jpeg";
 import Image from "next/image";
@@ -68,7 +69,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "devDucky @ Hack the 6ix 2024",
+    title: "Chameleon @ Hack the North 2024",
+    description:
+      "Chameleon simplifies the process of designing aesthetic websites by eliminating the need for technical skills. Users can submit images of their design ideas, and Chameleon generates beautiful, customized frontend pages that match their design aesthetics.",
+    tags: ["TypeScript", "Python", "React", "Node", "FastAPI", "Vite.js"],
+    icons: [
+      "devicon:typescript",
+      "devicon:python",
+      "devicon:react",
+      "logos:nodejs-icon",
+      "devicon:fastapi",
+      "devicon:vitejs",
+    ],
+    imageUrl: chameleon,
+    githubLink: "https://github.com/yukui5401/Chameleon",
+    demoLink: "https://devpost.com/software/chameleon-tskl4r",
+  },
+  {
+    title: "DevDucky @ Hack the 6ix 2024",
     description:
       "An all-in-one IDE developer tool for code analysis and AI-generated feedback, leveraging speech-to-text functionalities and fine-tuned LLMs for code completion to enhance the programming experience.",
     tags: [
@@ -226,4 +244,8 @@ export const skillsData = [
     name: "Flask",
     icon: "devicon:flask",
   },
+  {
+    name: "FastAPI",
+    icon: "devicon:fastapi"
+  }
 ] as const;
