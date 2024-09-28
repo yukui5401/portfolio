@@ -49,7 +49,7 @@ export const experiencesData = [
     title: "AI Engineering Intern",
     location: "HosTalky",
     description:
-      "Developed an MVP for a transcriptions API to autofill documents which handled up to 70,000 client requests per week on v2.3.8 of the mobile app.",
+      "Developed an MVP for a transcriptions API to autofill healthcare documents, released on v2.3.8 of the mobile app.",
     // icon: React.createElement(CgWorkAlt),
     icon: <Image src={hostalkyLogo} alt="Icon" />,
     date: "May 2024 - August 2024",

@@ -43,7 +43,7 @@ export default function Education() {
           <p className="mt-1">September 2023 - April 2028 (Expected)</p>
           <p className="my-1">Relevant courses:</p>
           <ul className="list-disc pl-6">
-            <li>CS 145 - Designing Functional Program (Advanced)</li>
+            <li>CS 145 - Designing Functional Programs (Advanced)</li>
             <li>MATH 145 - Algebra (Advanced)</li>
             <li>MATH 147 - Calculus 1 (Advanced)</li>
             <li>
@@ -52,6 +52,11 @@ export default function Education() {
             </li>
             <li>MATH 136 - Linear Algebra 1 (Honours)</li>
             <li>MATH 138 - Calculus 2 (Honours)</li>
+            <li>CS 245 - Logic and Computation</li>
+            <li>CS 246 - Object-Oriented Software Development</li>
+            <li>MATH 235 - Linear Algebra 2 (Honours)</li>
+            <li>STAT 230 - Probability</li>
+            <li>CS 234 - Data Types and Structures</li>
           </ul>
         </div>
       </div>
