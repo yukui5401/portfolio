@@ -36,7 +36,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Backend Developer Intern",
+    title: "Software Developer Intern",
     location: "HosTalky",
     description:
       "Currently building an AI search engine for efficient querying of the UMLS database.",
