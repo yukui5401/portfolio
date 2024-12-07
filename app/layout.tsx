@@ -10,7 +10,7 @@ const openSans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Brooke Yang | Portfolio",
-  description: "Software Developer.",
+  description: "Student at the University of Waterloo.",
   icons: {
     icon: "/app/icon2.jpg",
   },

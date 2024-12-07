@@ -36,17 +36,17 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer Intern",
+    title: "Software Engineer (Contract)",
     location: "HosTalky",
     description:
-      "Currently building an AI search engine for efficient querying of the UMLS database.",
+      "Building an AI search engine for efficient querying of the UMLS database.",
     // icon: React.createElement(CgWorkAlt),
     icon: <Image src={hostalkyLogo} alt="Icon" />,
-    date: "September 2024 - Present",
+    date: "September 2024 - December 2024",
     link: "https://www.hostalky.com/",
   },
   {
-    title: "AI Engineering Intern",
+    title: "AI Researcher Intern",
     location: "HosTalky",
     description:
       "Developed an MVP for a transcriptions API to autofill healthcare documents, released on v2.3.8 of the mobile app.",

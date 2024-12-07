@@ -47,8 +47,7 @@ export default function Intro() {
       >
         I&apos;m a 2nd year Math student at the{" "}
         <span className="text-yellow-300">University of Waterloo</span> with a
-        solid foundation in software development, specializing in microservices
-        architecture, serverless computing, and AI/ML technologies. I strive to
+        solid foundation in software development and a passion in ML research. I strive to
         develop solutions that not only solve problems but also set new
         standards for excellence and efficiency.
       </motion.h1>
